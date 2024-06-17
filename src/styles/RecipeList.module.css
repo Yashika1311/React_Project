@@ -1,0 +1,33 @@
+/* src/styles/RecipeList.module.css */
+.recipeList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .recipeLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .recipeCard {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .recipeCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .recipeImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  
