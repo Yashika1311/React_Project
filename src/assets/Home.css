@@ -1,0 +1,36 @@
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('/src/assets/portfolio2.avif') no-repeat center center/cover;
+    color: #333;
+    text-align: center;
+    padding-top: 60px; /* Offset for the navbar */
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-me-button {
+    background-color: #1cb379;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-me-button:hover {
+    background-color: #1d885f; /* Darker shade for hover */
+}

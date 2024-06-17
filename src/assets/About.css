@@ -1,0 +1,81 @@
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.about h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #0ACF83;
+    margin: 10px auto 0 auto;
+}
+
+.quote {
+    font-size: 18px;
+    margin: 0 auto 30px auto;
+    max-width: 800px;
+    line-height: 1.6;
+    font-style: italic;
+    color: #555;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.profile-image {
+    width: 400px;
+    height: 300px;
+    padding-top: 100px;
+    
+}
+
+.profile-details {
+    max-width: 500px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.profile-details h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.profile-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-details ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.profile-details ul li strong {
+    font-weight: bold;
+    color: #333;
+}
+.paras{
+    font-size: 16px;
+}
